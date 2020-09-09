@@ -25,7 +25,7 @@ artifactName="catbuffer"
 # PyPI: https://pypi.org/project/catbuffer/
 # Test: https://test.pypi.org/project/catbuffer/
 
-artifactVersion="0.0.3"                         # Artifact version
+artifactVersion="0.0.4"                         # Artifact version
 prereleaseSuffix="a1"                           # Pre-release suffix
 snapshotDateTime=".$(date -u +'%Y%m%d.%H%M%S')" # Pre-release timestamp
 prereleaseVersion="${artifactVersion}${snapshotDateTime}${prereleaseSuffix}"
