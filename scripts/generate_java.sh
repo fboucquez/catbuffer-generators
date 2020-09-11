@@ -4,7 +4,7 @@ set -e
 rootDir="$(dirname $0)/.."
 
 ARTIFACT_NAME="catbuffer-java"
-RELEASE_VERSION="0.0.21"
+RELEASE_VERSION="0.0.23"
 SNAPSHOT_VERSION="${RELEASE_VERSION}-SNAPSHOT"
 CURRENT_VERSION="$SNAPSHOT_VERSION"
 if [[ $1 == "release" ]]; then
